@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Characters\Abigail.cs">
+    <Files>
+      <File FileName="Assets\_Scripts\MainController.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Characters\Character.cs" Line="9" Column="26" />
+      <File FileName="Assets\_Scripts\Rooms.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Characters\Abigail.cs" Line="8" Column="1" />
+      <File FileName="Assets\_Scripts\Scenes\Scene.cs" Line="7" Column="2" />
+      <File FileName="Assets\_Scripts\Scenes\SceneController.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Dialogs\Dialog.cs" Line="7" Column="29" />
+      <File FileName="Assets\_Scripts\Dialogs\Reply.cs" Line="8" Column="35" />
+      <File FileName="Assets\_Scripts\Dialogs\Choice.cs" Line="8" Column="21" />
+      <File FileName="Assets\_Scripts\Dialogs\DialogManager.cs" Line="6" Column="23" />
+      <File FileName="Assets\_Scripts\Dialogs\Choices.cs" Line="9" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
