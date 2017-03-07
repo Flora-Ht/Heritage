@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -34,7 +35,17 @@ namespace I2.Loc
 
 		#region Management
 
-		public void OnLevelWasLoaded()
+		public void OnEnable()
+		{
+			SceneManager.sceneLoaded += OnLevelFinishedLoading;
+		}
+
+		public void OnDisable()
+		{
+			SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+		}
+
+		public void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
 		{
 			LocalizationManager.UpdateSources();
 		}

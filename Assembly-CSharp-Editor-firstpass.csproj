@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1B5C965A-6EC3-1A18-35B8-AFEC95F2A305}</ProjectGuid>
+    <ProjectGuid>{5010124B-CF4A-7936-8D3F-A8DFDC952ED6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -81,8 +81,27 @@
      <Compile Include="Assets\Plugins\Ink\Editor\Ink Library\InkLibraryEditor.cs" />
      <Compile Include="Assets\Plugins\Ink\Editor\Player Window\InkPlayerWindow.cs" />
      <Compile Include="Assets\Plugins\Ink\Editor\Tools\InkEditorUtils.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Inspectors\BlackboardInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Inspectors\GlobalBlackboardInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Inspectors\GraphInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Inspectors\GraphOwnerInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\ProjectVersionUpdater.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\ExternalInspectorWindow.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\GraphEditor.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\QuickPopup.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\SceneGraphsEditorInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\TaskWizardWindow.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\WelcomeWindow.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Modules\ActionListPlayer\Editor\ActionListPlayerInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Modules\BehaviourTrees\Editor\BehaviourTreeOwnerInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Modules\DialogueTrees\Editor\DialogueTreeControllerInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Modules\DialogueTrees\Editor\DialogueTreeInspector.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Modules\DialogueTrees\Editor\ProjectVersionUpdater_DialogueTrees.cs" />
+     <Compile Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Modules\Editor\Commands.cs" />
      <None Include="Assets\Plugins\I2\Localization\Examples\Common\Languages\English.txt" />
      <None Include="Assets\Plugins\I2\Localization\Examples\Common\Languages\Spanish.txt" />
+     <None Include="Assets\Plugins\ParadoxNotion\NodeCanvas\!ReadMe!.txt" />
+     <None Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\_Commons\Runtime\Serialization\_LICENSE - FULL SERIALIZER.txt" />
      <None Include="Assets\Plugins\I2\Localization\readme.txt" />
      <None Include="Assets\Plugins\Ink\Template\Template.txt" />
  <Reference Include="UnityEditor.Advertisements">
@@ -113,7 +132,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="ArabicSupport">
- <HintPath>C:/Users/Queenie/Documents/Unity Heritage/L'héritage/Assets/Plugins/I2/Localization/Dlls/ArabicSupport.dll</HintPath>
+ <HintPath>C:/Users/Queenie/Documents/Unity Heritage/Heritage/Assets/Plugins/I2/Localization/Dlls/ArabicSupport.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -136,7 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{F181B7DA-82C3-E79A-B646-ED6CCD804E9E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7CD0A873-79AC-9BEA-8D7A-CA3653971E48}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

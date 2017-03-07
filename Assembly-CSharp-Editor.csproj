@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{22E5C57A-3F7C-0E37-748E-DEADE5E50AC9}</ProjectGuid>
+    <ProjectGuid>{9768534C-9BCF-AF87-666A-1294322639B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -45,34 +45,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\I2\Common\Editor\EditorTools.cs" />
-     <Compile Include="Assets\I2\Common\Editor\I2AboutWindow.cs" />
-     <Compile Include="Assets\I2\Common\Editor\RenameDrawer.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LanguageSourceInspector.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeInspector.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\ResourceManagerInspector.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\SetLanguageInspector.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\TermsPopup_Drawer.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Languages.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Spreadsheet_Google.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Spreadsheet_Local.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Terms.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Terms_Description.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Categorize.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_CharSet.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_MergeTerms.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_NoLocalized.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_ParseTerms.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Scenes.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Script.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Warnings.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\Tools_NGUI_to_I2.cs" />
-     <Compile Include="Assets\I2\Localization\Scripts\Editor\UpgradeManager.cs" />
-     <None Include="Assets\I2\Localization\Examples\Common\Languages\English.txt" />
-     <None Include="Assets\I2\Localization\Examples\Common\Languages\Spanish.txt" />
-     <None Include="Assets\I2\Localization\readme.txt" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Inspectors\BlackboardInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Inspectors\GlobalBlackboardInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Inspectors\GraphInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Inspectors\GraphOwnerInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\ProjectVersionUpdater.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\ExternalInspectorWindow.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\GraphEditor.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\QuickPopup.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\SceneGraphsEditorInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\TaskWizardWindow.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Framework\Design\Editor\Windows\WelcomeWindow.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Modules\ActionListPlayer\Editor\ActionListPlayerInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Modules\BehaviourTrees\Editor\BehaviourTreeOwnerInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Modules\DialogueTrees\Editor\DialogueTreeControllerInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Modules\DialogueTrees\Editor\DialogueTreeInspector.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Modules\DialogueTrees\Editor\ProjectVersionUpdater_DialogueTrees.cs" />
+     <Compile Include="Assets\ParadoxNotion\NodeCanvas\Modules\Editor\Commands.cs" />
+     <None Include="Assets\Plugins\I2\Localization\Examples\Common\Languages\English.txt" />
+     <None Include="Assets\Plugins\I2\Localization\Examples\Common\Languages\Spanish.txt" />
+     <None Include="Assets\ParadoxNotion\NodeCanvas\!ReadMe!.txt" />
+     <None Include="Assets\ParadoxNotion\NodeCanvas\Framework\_Commons\Runtime\Serialization\_LICENSE - FULL SERIALIZER.txt" />
+     <None Include="Assets\Plugins\I2\Localization\readme.txt" />
+     <None Include="Assets\Plugins\Ink\Template\Template.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -100,6 +95,9 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
+ <Reference Include="ArabicSupport">
+ <HintPath>C:/Users/Queenie/Documents/Unity Heritage/Heritage/Assets/Plugins/I2/Localization/Dlls/ArabicSupport.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -118,13 +116,14 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="ArabicSupport">
- <HintPath>C:/Users/Queenie/Documents/Unity Heritage/L'héritage/Assets/I2/Localization/Dlls/ArabicSupport.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7CD0A873-79AC-9BEA-8D7A-CA3653971E48}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{7DDAE2C8-BF1C-C4A8-4B57-6F06582579BA}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{53AD5BE5-9209-44FF-81C5-A466EE790E6C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{5010124B-CF4A-7936-8D3F-A8DFDC952ED6}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

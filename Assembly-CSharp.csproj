@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7DDAE2C8-BF1C-C4A8-4B57-6F06582579BA}</ProjectGuid>
+    <ProjectGuid>{53AD5BE5-9209-44FF-81C5-A466EE790E6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,19 +45,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\Characters\ACharacter.cs" />
      <Compile Include="Assets\_Scripts\Characters\Abigail.cs" />
-     <Compile Include="Assets\_Scripts\Characters\Character.cs" />
-     <Compile Include="Assets\_Scripts\Dialogs\Choice.cs" />
-     <Compile Include="Assets\_Scripts\Dialogs\Choices.cs" />
-     <Compile Include="Assets\_Scripts\Dialogs\Dialog.cs" />
-     <Compile Include="Assets\_Scripts\Dialogs\DialogManager.cs" />
-     <Compile Include="Assets\_Scripts\Dialogs\Reply.cs" />
+     <Compile Include="Assets\_Scripts\Characters\CharactersController.cs" />
+     <Compile Include="Assets\_Scripts\Characters\Ernest.cs" />
+     <Compile Include="Assets\_Scripts\Characters\Geoffroy.cs" />
+     <Compile Include="Assets\_Scripts\Characters\Hippolyte.cs" />
+     <Compile Include="Assets\_Scripts\Characters\Leontine.cs" />
+     <Compile Include="Assets\_Scripts\Characters\Ophelie.cs" />
+     <Compile Include="Assets\_Scripts\Characters\Tayla.cs" />
+     <Compile Include="Assets\_Scripts\Dialogs\DialogBox.cs" />
+     <Compile Include="Assets\_Scripts\Kim\Kim.cs" />
+     <Compile Include="Assets\_Scripts\Kim\KimInventory.cs" />
+     <Compile Include="Assets\_Scripts\Kim\KimQuestsLog.cs" />
      <Compile Include="Assets\_Scripts\MainController.cs" />
-     <Compile Include="Assets\_Scripts\Rooms.cs" />
+     <Compile Include="Assets\_Scripts\Model.cs" />
+     <Compile Include="Assets\_Scripts\Quests\QuestsController.cs" />
+     <Compile Include="Assets\_Scripts\Quests\QuestsManager.cs" />
+     <Compile Include="Assets\_Scripts\Scenes\Rooms.cs" />
      <Compile Include="Assets\_Scripts\Scenes\Scene.cs" />
      <Compile Include="Assets\_Scripts\Scenes\SceneController.cs" />
+     <Compile Include="Assets\_Scripts\Utils\Singleton.cs" />
      <None Include="Assets\Plugins\I2\Localization\Examples\Common\Languages\English.txt" />
      <None Include="Assets\Plugins\I2\Localization\Examples\Common\Languages\Spanish.txt" />
+     <None Include="Assets\Plugins\ParadoxNotion\NodeCanvas\!ReadMe!.txt" />
+     <None Include="Assets\Plugins\ParadoxNotion\NodeCanvas\Framework\_Commons\Runtime\Serialization\_LICENSE - FULL SERIALIZER.txt" />
      <None Include="Assets\Plugins\I2\Localization\readme.txt" />
      <None Include="Assets\Plugins\Ink\Template\Template.txt" />
  <Reference Include="UnityEngine.UI">
@@ -70,12 +82,12 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="ArabicSupport">
- <HintPath>C:/Users/Queenie/Documents/Unity Heritage/L'héritage/Assets/Plugins/I2/Localization/Dlls/ArabicSupport.dll</HintPath>
+ <HintPath>C:/Users/Queenie/Documents/Unity Heritage/Heritage/Assets/Plugins/I2/Localization/Dlls/ArabicSupport.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{F181B7DA-82C3-E79A-B646-ED6CCD804E9E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{7CD0A873-79AC-9BEA-8D7A-CA3653971E48}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

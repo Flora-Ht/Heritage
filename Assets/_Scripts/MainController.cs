@@ -3,11 +3,10 @@ using System.Collections;
 
 public class MainController : MonoBehaviour {
 
-    void Start() {
+	public int currentAct = 0;
+	public string currentScene;
 
-    }
-
-    void Update() {
-
-    }
+	public void Start() {
+		
+	}
 }

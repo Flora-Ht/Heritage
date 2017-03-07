@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Abigail : Character {
+public class Abigail : ACharacter {
 
-	public int love;
+	public int loveEvidence;
+	public int courtesy;
 }
